@@ -96,10 +96,13 @@ menu lateral/icone hamburguer
 ==================
 */
 
-.nav-btn{
-  font-size: 2rem;
-  color: #E7E7E7;
-}
+  .nav-btn{
+    font-size: 2rem;
+    color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 
 
 /*
@@ -112,7 +115,7 @@ Banner
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(rgba(0,0,0,.5), 
-  rgba(0,0,0,0)), url(../img/background-prototype.png);
+  rgba(0,0,0,0)), url(../img/Central-Park.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -168,34 +171,90 @@ Chat
 
 .chat-container{
   width: 100vw;
-  height: 100vh;
-  background-color: black;
+  /* height: 100vh; */
+  background-color:#8D69A2;  /*fundo do bloco de fofoca*/
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.balao-container{
+
+
+/*
+================
+Send
+================
+*/
+]
+
+.balao-send, .balao-receive{
+  font-size: 4em;
+}
+
+.balao-send{
    background-color: #B16CE3;
    width: 250px;
    height: 250px;
-   border-radius: 1rem 1rem 1rem 1rem;
    padding: 2rem;
    text-align: center;
+   align-self: flex-end;
    color: #E7E7E7;
-   margin:2rem 0 2rem 0;
+   margin:2rem;
+   -moz-border-radius: 12px;
+   -webkit-border-radius: 12px;
+   border-radius: 12px;
+   font-weight: 900;
 }
 
-.balao-container-2{
+.balao-send::before{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 36px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 36px solid white;
+  border-bottom: 13px solid;
+  background-color: #B16CE3;
+  border-bottom-left-radius: 16px 14px;
+}
+
+/*
+================
+Receive
+================
+*/
+
+.balao-receive{
    background-color:#DDEF96;
    width: 250px;
    height: 250px;
    border-radius: 1rem 1rem 1rem 1rem;
    padding: 2rem;
    text-align: center;
+   align-self: flex-start;
    color: black;
    margin:1rem 2rem 0;
+   font-weight: 900;
 }
+
+.balao-receive::before{
+  left: -7px;
+  width: 20px;
+  background-color: #DDEF96;
+  border-bottom-left-radius: 16px 14px;
+}
+
+.balao-receive::after{
+  right: -26px;
+  width: 26px;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+}
+
+
 
 @media screen and (max-width:678px){
   .chat-container{
