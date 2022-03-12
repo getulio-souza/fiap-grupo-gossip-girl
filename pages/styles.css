@@ -25,6 +25,7 @@ h1{
 
 h2{
   font-size: 3rem;
+  text-align: center;
 }
 
 h3{
@@ -39,7 +40,7 @@ h4{
 
 h1, h2{
   font-weight: 900;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 li{
@@ -169,95 +170,40 @@ Chat
 =========================
 */
 
-.chat-container{
-  width: 100vw;
-  /* height: 100vh; */
-  background-color:#8D69A2;  /*fundo do bloco de fofoca*/
+.travel-container{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.img-container{
+  width: 50vw;
+  height: 80vh;
+}
+
+.card-p{
+  font-size: 1rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.baloes-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  height: 80vh;
 
 }
 
-
-
-/*
-================
-Send
-================
-*/
-]
-
-.balao-send, .balao-receive{
-  font-size: 4em;
-}
-
-.balao-send{
+.balao{
    background-color: #B16CE3;
-   width: 250px;
+   width: 200px;
    height: 250px;
    padding: 2rem;
    text-align: center;
-   align-self: flex-end;
    color: #E7E7E7;
-   margin:2rem;
-   -moz-border-radius: 12px;
-   -webkit-border-radius: 12px;
+   margin: 1rem 2rem;
    border-radius: 12px;
    font-weight: 900;
 }
 
-.balao-send::before{
-  content: '';
-  position: absolute;
-  left: 100%;
-  top: 36px;
-  width: 0;
-  height: 0;
-  border-top: 13px solid transparent;
-  border-right: 36px solid white;
-  border-bottom: 13px solid;
-  background-color: #B16CE3;
-  border-bottom-left-radius: 16px 14px;
-}
-
-/*
-================
-Receive
-================
-*/
-
-.balao-receive{
-   background-color:#DDEF96;
-   width: 250px;
-   height: 250px;
-   border-radius: 1rem 1rem 1rem 1rem;
-   padding: 2rem;
-   text-align: center;
-   align-self: flex-start;
-   color: black;
-   margin:1rem 2rem 0;
-   font-weight: 900;
-}
-
-.balao-receive::before{
-  left: -7px;
-  width: 20px;
-  background-color: #DDEF96;
-  border-bottom-left-radius: 16px 14px;
-}
-
-.balao-receive::after{
-  right: -26px;
-  width: 26px;
-  background-color: black;
-  border-bottom-left-radius: 10px;
-}
-
-
-
-@media screen and (max-width:678px){
-  .chat-container{
-    display: grid;
-  }
-}
