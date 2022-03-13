@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-body{
-  font-family: 'Montserrat', sans-serif;
+ /*body{
+  font-family: 'Montserrat', sans-serif; 
 }
 
 
@@ -147,7 +147,6 @@ Banner
   }
 }
 
-
 .botao-banner{
   background-color: #6937A9;
   color: #fff;
@@ -166,7 +165,7 @@ Banner
 
 /*
 =========================
-Chat
+Destino
 =========================
 */
 
@@ -174,36 +173,80 @@ Chat
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 100vw;
+  height: 50vh;
+  background-color: #fdfdfd;
 }
 
-.img-container{
-  width: 50vw;
-  height: 80vh;
+@media screen and (max-width:678px){
+  .travel-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
-.card-p{
-  font-size: 1rem;
-  line-height: 2rem;
+.title-and-image{
   text-align: center;
+  margin: 2rem; 
+
 }
 
-.baloes-container{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  height: 80vh;
+.img-conatainer{
+  border-radius: 2rem;
+  /* margin-top: 3rem; */
+}
 
+.botoes-img{
+  font-size: 2rem;
+  color: white;
+  margin: 2rem 0;
+}
+
+.botao-img-prev{
+ margin-right: 2rem;
+}
+
+.botao-img-next{
+  margin-left: 2rem;
+}
+
+.botao-img-prev, .botao-img-next{
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  border-radius: 2rem;
+  color: #E7E7E7;
+  transition: .5s;
+}
+
+.botao-img-prev:hover{
+  background-color: #B16CE3;
+  color: #fff;
+}
+
+.botao-img-next:hover{
+  background-color: #B16CE3;
+  color: #fff;
+}
+
+.baloes{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 
 .balao{
    background-color: #B16CE3;
-   width: 200px;
-   height: 250px;
-   padding: 2rem;
-   text-align: center;
-   color: #E7E7E7;
+   width: 400px;
+   height: 420px;
    margin: 1rem 2rem;
    border-radius: 12px;
-   font-weight: 900;
+  } 
+  
+  .balao-text{
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 900;
+    transform: translateY(40%);
 }
-
