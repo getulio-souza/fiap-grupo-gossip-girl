@@ -280,9 +280,25 @@ Setas das imagens - mobile
   }
 }
 
+.setas-icons{
+  font-size: 3rem;
+  position: absolute;
+}
 
+.img-setas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.setas-icons i{
+  position: relative;
+  margin: 0 4.5rem;
+}
 
+.setas-icons a{
+  color: #000;
+}
 /*
 =========================
 Balões
