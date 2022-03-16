@@ -61,8 +61,8 @@ Menu de navegação
 
 .menu{
     width: 100%;
-    /* height: 6rem; */
-    /* background-color: black; */
+    height: 80px;
+    background-color: black;
   } 
   
   .menu_de_navegacao{
@@ -89,9 +89,16 @@ Menu de navegação
 }
 
 .menu_de_navegacao ul li a{
-    color: #E7E7E7;
+  color: #E7E7E7;
   font-weight: 900;
 }
+
+/* javascript scroll hide */
+.scroll-active{
+  transform: translateY(-80px);
+}
+
+
 
 /*
 ==================
