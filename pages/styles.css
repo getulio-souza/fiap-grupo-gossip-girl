@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&family=Poppins:wght@300&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 
- /*body{
-  font-family: 'Montserrat', sans-serif; 
+body {
+  font-family: 'Poppins', sans-serif;
 }
-
 
 /*
 ====================
@@ -17,40 +18,31 @@ Estilos globais
 ====================
 */
 
-
-h1{
+h1 {
   font-size: 4rem;
-  color: #E7E7E7;
+  color: #e7e7e7;
   font-weight: 900;
 }
 
-h2{
+h2 {
   font-size: 3rem;
   text-align: center;
-  color: #E7E7E7;
+  color: #e7e7e7;
 }
 
-h3{
+h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
-h4{
+h4 {
   font-size: 1.7rem;
 }
 
-
-h1, h2{
+h1,
+h2 {
   font-weight: 900;
   margin: 2rem;
-}
-
-li{
-    list-style-type:none;
-}
-
-a{
-    text-decoration: none;
 }
 
 /*
@@ -59,6 +51,7 @@ Menu de navegação
 =====================
 */
 
+<<<<<<< HEAD
 .menu{
     width: 100%;
     height: 80px;
@@ -80,16 +73,44 @@ Menu de navegação
     margin: 1rem;
     padding: 1rem;
     border-radius: 2rem;
+=======
+.menu {
+  width: 100%;
+  /* height: 6rem; */
+  /* background-color: black; */
+>>>>>>> 8917e8f93a29a067eb889173e10f6015b493ff73
 }
 
-.menu_de_navegacao li:hover{
-    background-color: #6937A9;
-    color: black;
-    transition: all .4s linear;
+.menu_de_navegacao {
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
+<<<<<<< HEAD
 .menu_de_navegacao ul li a{
   color: #E7E7E7;
+=======
+.menu_de_navegacao ul {
+  display: flex;
+}
+
+.menu_de_navegacao li {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.menu_de_navegacao li:hover {
+  background-color: #6937a9;
+  color: black;
+  transition: all 0.4s linear;
+}
+
+.menu_de_navegacao ul li a {
+  color: #e7e7e7;
+>>>>>>> 8917e8f93a29a067eb889173e10f6015b493ff73
   font-weight: 900;
 }
 
@@ -104,7 +125,7 @@ menu lateral/icone hamburguer
 ==================
 */
 
-  /* .nav-btn{
+/* .nav-btn{
     font-size: 2rem;
     color: red;
     position: absolute;
@@ -112,18 +133,17 @@ menu lateral/icone hamburguer
     right: 0;
   } */
 
-
 /*
 ====================
 Banner 
 ====================
 */
 
-.banner{
+.banner {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,.5), 
-  rgba(0,0,0,0.9)), url(../img/estatua-da-liberdade.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url(../img/estatua-da-liberdade.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -135,25 +155,24 @@ Banner
   text-align: center;
 }
 
-@media screen and (max-width:678px){
-   .menu{
-     display: none;
-   }
-   .banner h1{
-       font-size: 4rem;
-     }
-     h2{
-      font-size:2rem ;
-     }
-  }
-
-
-@media screen and (min-width:678px){
-  .nav-lateral, .nav-btn{
+@media screen and (max-width: 678px) {
+  .menu {
     display: none;
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
   }
 }
 
+@media screen and (min-width: 678px) {
+  .nav-lateral,
+  .nav-btn {
+    display: none;
+  }
+}
 
 /*
 ======================
@@ -161,8 +180,8 @@ botão - Getúlio/aimee
 ======================
 */
 
-.botao-banner{
-  background-color: #6937A9;
+.botao-banner {
+  background-color: #6937a9;
   color: #eee;
   border: 3px solid black;
   font-size: 1.5rem;
@@ -170,15 +189,13 @@ botão - Getúlio/aimee
   margin: 2rem;
   padding: 1rem 4rem;
   border-radius: 2rem;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.botao-banner:hover{
+.botao-banner:hover {
   background-color: #fff;
-  color: #6937A9;
+  color: #6937a9;
 }
-
-
 
 /*
 =========================
@@ -186,6 +203,7 @@ Destino
 =========================
 */
 
+<<<<<<< HEAD
 
 .background-container{
   background-color: #e7e7e7;
@@ -197,9 +215,17 @@ Destino
 
 .background-container-3{
   background-color: #f0ce86;
+=======
+.background-container {
+  background-color: #6937a9;
 }
 
-.travel-container{
+.background-container-2 {
+  background-color: #b16ce3;
+>>>>>>> 8917e8f93a29a067eb889173e10f6015b493ff73
+}
+
+.travel-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -207,23 +233,22 @@ Destino
   height: 100vh;
 }
 
-
 /*
 =========================
 layout responsivo
 =========================
 */
 
-@media screen and (max-width:678px){
-  .travel-container{
+@media screen and (max-width: 678px) {
+  .travel-container {
     display: grid;
     grid-template-columns: 1fr;
     height: 220vh;
   }
-  .botoes-img{
+  .botoes-img {
     display: none;
   }
-  .botao-banner{
+  .botao-banner {
     font-size: 1.2rem;
   }
 }
@@ -234,29 +259,34 @@ Destino - Carrosel de imagens
 =========================
 */
 
+<<<<<<< HEAD
 
 .title{
   color: #000;
 }
 
 .title-and-image{
+=======
+.title-and-image {
+>>>>>>> 8917e8f93a29a067eb889173e10f6015b493ff73
   text-align: center;
-  margin: 2rem; 
+  margin: 2rem;
 }
 
-.img-container{
+.img-container {
   width: 50vw;
   height: 50vh;
   /* opacity: 0; */
 }
 
-@media screen and (max-width:678px){
- .img-container{
-   width: 100vw;
-   height: 30vh;
- }
+@media screen and (max-width: 678px) {
+  .img-container {
+    width: 100vw;
+    height: 30vh;
+  }
 }
 
+<<<<<<< HEAD
 .slide-img[data-ative]{
   opacity: 1;
   z-index: 1;
@@ -301,75 +331,105 @@ Setas das imagens - mobile
 }
 
 
+=======
+>>>>>>> 8917e8f93a29a067eb889173e10f6015b493ff73
 /*
 =======================
 Botões das imagens - desktop
 =======================
 */
 
-.botoes-img{
+.botoes-img {
   font-size: 2rem;
   color: white;
   margin: 2rem 0;
 }
 
-.botao-img-prev{
- margin-right: 2rem;
+.botao-img-prev {
+  margin-right: 2rem;
 }
 
-.botao-img-next{
+.botao-img-next {
   margin-left: 2rem;
 }
 
-.botao-img-prev, .botao-img-next{
+.botao-img-prev,
+.botao-img-next {
   padding: 0.5rem 1rem;
-  background-color: #6937A9;
+  background-color: #6937a9;
   color: #eee;
   border: 3px solid black;
   box-shadow: 7px 7px 0 rgba(63, 19, 99, 0.8);
   border-radius: 2rem;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.botao-img-prev:hover{
+.botao-img-prev:hover {
   background-color: #fff;
-  color: #6937A9;
+  color: #6937a9;
 }
 
-.botao-img-next:hover{
+.botao-img-next:hover {
   background-color: #fff;
-  color: #6937A9;
+  color: #6937a9;
 }
 
 
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 678px) {
+  .setas-img {
+    display: none;
+  }
+}
+
+.setas-icons {
+  font-size: 3rem;
+  position: absolute;
+}
+
+.img-setas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setas-icons i {
+  position: relative;
+  margin: 0 4.5rem;
+}
+
+.setas-icons a {
+  color: #000;
+}
+>>>>>>> 8917e8f93a29a067eb889173e10f6015b493ff73
 /*
 =========================
 Balões
 =========================
 */
 
-.baloes{
+.baloes {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.balao{
-  background-color: #B16CE3;
-   width: 200px;
-   height: 220px;
-   margin: 1rem 2rem;
-   border-radius: 12px;
-  } 
+.balao {
+  background-color: #b16ce3;
+  width: 200px;
+  height: 220px;
+  margin: 1rem 2rem;
+  border-radius: 12px;
+}
 
-@media screen and (max-width:678px){
-  .baloes{
+@media screen and (max-width: 678px) {
+  .baloes {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 }
-
 
 /*
 ======================
@@ -377,7 +437,7 @@ balões (Aimee)
 ======================
 */
 
-.balao-2{
+.balao-2 {
   width: 220px;
   height: 280px;
   padding: 1rem 1rem;
@@ -387,19 +447,18 @@ balões (Aimee)
   border: 3px solid black;
   box-shadow: 7px 7px 0 rgba(63, 19, 99, 0.8); /*alterei a cor da borda pra combinar com o fundo. Vê o que vocês acham.*/
 
-    /* background-color: #000;
+  /* background-color: #000;
     width: 200px;
     height: 230px;
     margin: 1rem 2rem;
     border-radius: 12px; */
-} 
-
-  .balao-text{
-    padding: 2rem;
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-    line-height: 2rem;
-    font-weight: 900;
 }
 
+.balao-text {
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 900;
+}
