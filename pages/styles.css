@@ -183,11 +183,15 @@ Destino
 
 
 .background-container{
-  background-color: #6937A9;
+  background-color: #e7e7e7;
 }
 
 .background-container-2{
-  background-color: #B16CE3;
+  background-color: #bbdddd;
+}
+
+.background-container-3{
+  background-color: #f0ce86;
 }
 
 .travel-container{
