@@ -230,6 +230,10 @@ Destino - Continuação
 */
 
 
+.title{
+  color: #000;
+}
+
 .title-and-image{
   text-align: center;
   margin: 2rem; 
