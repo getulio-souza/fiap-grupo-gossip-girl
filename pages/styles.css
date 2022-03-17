@@ -98,8 +98,6 @@ Menu de navegação
   transform: translateY(-80px);
 }
 
-
-
 /*
 ==================
 menu lateral/icone hamburguer
@@ -228,7 +226,7 @@ layout responsivo
 
 /*
 =========================
-Destino - Continuação
+Destino - Carrosel de imagens
 =========================
 */
 
@@ -296,6 +294,12 @@ Botões das imagens - desktop
 Setas das imagens - mobile
 =======================
 */
+.img-setas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media screen and (min-width:678px){
   .setas-img{
@@ -308,11 +312,6 @@ Setas das imagens - mobile
   position: absolute;
 }
 
-.img-setas{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .setas-icons i{
   position: relative;
