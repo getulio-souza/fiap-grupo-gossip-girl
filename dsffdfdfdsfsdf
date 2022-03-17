@@ -1,0 +1,114 @@
+[33mcommit cbeed958d8aded0c3273da563bca5422dc63703e[m[33m ([m[1;36mHEAD -> [m[1;32mjavascript_galeria_fotos[m[33m)[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Wed Mar 16 11:11:42 2022 -0300
+
+    javascript scroll menu
+
+[33mcommit ff5d7af1f5b1697af1e5297d77455358f3b44729[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Wed Mar 16 00:00:10 2022 -0300
+
+    escondendo o menu com scroll pra baixo
+
+[33mcommit 945fea06bfdd5027ea165895d14f8237dbe04da2[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Tue Mar 15 23:03:56 2022 -0300
+
+    botões com layout atualização e height do mobile corrigido
+
+[33mcommit 4d40548c9e7603a982f61528d06eceec0b9a09b7[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Tue Mar 15 21:43:49 2022 -0300
+
+    foto do banner atualizada
+
+[33mcommit b97f50597a7331587581a65115e9e9c5eb554977[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Tue Mar 15 21:41:51 2022 -0300
+
+    boxes e botões com estilo da aimee
+
+[33mcommit a96e8d15f14d1fdc852e2ab322a4859e5b86a294[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Tue Mar 15 14:43:31 2022 -0300
+
+    setas de navegação mobile
+
+[33mcommit 1833377214d9170da1407ed3ee38bcaa2be0ab8c[m
+Merge: 15e7b4e 3fdde17
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Tue Mar 15 14:16:02 2022 -0300
+
+    new photos
+
+[33mcommit 15e7b4e39fb15134eb562744a97e214c161a65d6[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Tue Mar 15 11:33:27 2022 -0300
+
+    layout mobile 100%
+
+[33mcommit 3fdde17491f6c3d2d7bd4b9a531280d6023f4095[m
+Author: Aimee <aimeemariana2@gmail.com>
+Date:   Mon Mar 14 12:21:14 2022 -0300
+
+    novas fotos + typo
+
+[33mcommit f116145cf84472f81bdf21bb5c52a7d928b8aa47[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Mon Mar 14 11:17:31 2022 -0300
+
+    novo banner e destinos atualizados
+
+[33mcommit f63919266fc16947e1503476985b6b24ecdb80b7[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Sun Mar 13 23:38:04 2022 -0300
+
+    layout desktop funcional/mobile ainda precisa de ajustes
+
+[33mcommit b42fa5f31a8f2989d8d68376319c23213a6aba16[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Sun Mar 13 21:03:17 2022 -0300
+
+    exemplo de apresentação de ponto turistico com duas colunas
+
+[33mcommit cf5afd7a7d743e5f0878c292b5c3330e2eab9eb3[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Sun Mar 13 20:59:30 2022 -0300
+
+    apresentação-ponto-turistico-figma
+
+[33mcommit c0de6556480b817fced4b9edaa787e9bd109b035[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Sat Mar 12 16:40:33 2022 -0300
+
+    primeiro destino turistico
+
+[33mcommit 348da46265ebe8421cfe4a57bdf7c9f08d006ded[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Sat Mar 12 15:52:55 2022 -0300
+
+    new hero
+
+[33mcommit 07bb37bcca39bc62fc50dcec314c42fb28045d9f[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Tue Mar 8 13:11:18 2022 -0300
+
+    figama layout
+
+[33mcommit 343095294dfa2de4a84b140afe98e1169c93ccea[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Sat Mar 5 15:09:11 2022 -0300
+
+    fix: review-code
+
+[33mcommit 3b7ccd867990bfce0c3462aaad39951ce808dd43[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Sat Mar 5 15:00:28 2022 -0300
+
+    feat:pages added
+
+[33mcommit c2d60810e7e6f505e1e40152471df5983d7921e7[m
+Author: Getúlio Souza <getuliosouza@live.com>
+Date:   Sat Mar 5 14:45:49 2022 -0300
+
+    initial commmit

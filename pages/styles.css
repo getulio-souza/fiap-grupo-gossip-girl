@@ -61,8 +61,8 @@ Menu de navegação
 
 .menu{
     width: 100%;
-    /* height: 6rem; */
-    /* background-color: black; */
+    height: 80px;
+    background-color: black;
   } 
   
   .menu_de_navegacao{
@@ -89,8 +89,13 @@ Menu de navegação
 }
 
 .menu_de_navegacao ul li a{
-    color: #E7E7E7;
+  color: #E7E7E7;
   font-weight: 900;
+}
+
+/* javascript scroll hide */
+.scroll-active{
+  transform: translateY(-80px);
 }
 
 /*
@@ -225,7 +230,7 @@ layout responsivo
 
 /*
 =========================
-Destino - Continuação
+Destino - Carrosel de imagens
 =========================
 */
 
@@ -242,6 +247,7 @@ Destino - Continuação
 .img-container{
   width: 50vw;
   height: 50vh;
+  /* opacity: 0; */
 }
 
 @media screen and (max-width:678px){
@@ -249,6 +255,49 @@ Destino - Continuação
    width: 100vw;
    height: 30vh;
  }
+}
+
+.slide-img[data-ative]{
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+/*
+=======================
+Setas das imagens - mobile
+=======================
+*/
+/*
+=======================
+Setas das imagens - mobile
+=======================
+*/
+
+@media screen and (min-width:678px){
+  .setas-img{
+    display: none;
+  }
+}
+
+.setas-icons{
+  font-size: 3rem;
+  position: absolute;
+}
+
+.img-setas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setas-icons i{
+  position: relative;
+  margin: 0 4.5rem;
+}
+
+.setas-icons a{
+  color: #000;
 }
 
 
@@ -292,37 +341,7 @@ Botões das imagens - desktop
   color: #6937A9;
 }
 
-/*
-=======================
-Setas das imagens - mobile
-=======================
-*/
 
-@media screen and (min-width:678px){
-  .setas-img{
-    display: none;
-  }
-}
-
-.setas-icons{
-  font-size: 3rem;
-  position: absolute;
-}
-
-.img-setas{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.setas-icons i{
-  position: relative;
-  margin: 0 4.5rem;
-}
-
-.setas-icons a{
-  color: #000;
-}
 /*
 =========================
 Balões
