@@ -129,6 +129,14 @@ menu lateral/
  background-color: #f0ce86;
 }
 
+/* @media screen and (min-width:678px){
+  .nav-btn, .nav-lateral{
+    display: none;
+  }
+} */
+
+
+
 .nav-lateral li{
   margin: 2rem 0;
 }
@@ -281,6 +289,7 @@ margin: 2rem;
 .img-container{
 width: 50vw;
 height: 50vh;
+object-fit: cover;
 }
 
 @media screen and (max-width:678px){
@@ -337,7 +346,7 @@ color: #6937A9;
 Setas das imagens - mobile
 =======================
 */
-
+/* 
 @media screen and (min-width:678px){
 .setas-img{
   display: none;
@@ -362,7 +371,7 @@ margin: 0 4.5rem;
 
 .setas-icons a{
 color: #000;
-}
+} */
 /*
 =========================
 Balões
@@ -407,16 +416,10 @@ background-color: #1b1b1b;
 color: #eee;
 border: 3px solid black;
 box-shadow: 7px 7px 0 rgba(63, 19, 99, 0.8); /*alterei a cor da borda pra combinar com o fundo. Vê o que vocês acham.*/
-
-  /* background-color: #000;
-  width: 200px;
-  height: 230px;
-  margin: 1rem 2rem;
-  border-radius: 12px; */
 } 
 
 .balao-text{
-  padding: 2rem;
+  padding: 0.5rem;
   text-align: center;
   color: #fff;
   font-size: 1rem;
@@ -424,4 +427,13 @@ box-shadow: 7px 7px 0 rgba(63, 19, 99, 0.8); /*alterei a cor da borda pra combin
   font-weight: 900;
 }
 
-
+.balao-info{
+  width: 220px;
+height: 280px;
+padding: 1rem 1rem;
+margin: 1rem 2rem;
+background-color: #B16CE3;
+color: #eee;
+border: 3px solid black;
+box-shadow: 7px 7px 0 rgba(63, 19, 99, 0.8);
+}
