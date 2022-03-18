@@ -16,7 +16,7 @@
       <!-- barra de navegação -->
       <nav class="menu_de_navegacao">
         <ul>
-          <li><a href="#">Destinos</a></li>
+          <li><a href="#destinos">Destinos</a></li>
           <li><a href="#">Curiosidades</a></li>
           <li><a href="#">Fatos históricos</a></li>
           <li><a href="#">Contato</a></li>
@@ -27,11 +27,17 @@
         <button class="nav-btn">
           <i class="fa-solid fa-bars"></i>
         </button>
+
+        <!-- botão X -->
+        <!-- <button class="close-btn">
+          <i class="fa-solid fa-x"></i>          
+        </button> -->
+
         <nav class="nav-lateral">
           <ul>
-            <li><a href="#">Destinos</a></li>
+            <li><a href="#destinos">Destinos</a></li>
             <li><a href="#">Curiosidades</a></li>
-            <li><a href="#">Fatos históricos</a></li>
+            <!-- <li><a href="#">Fatos históricos</a></li> -->
             <li><a href="#">Contato</a></li>
           </ul>
         </nav>
@@ -41,11 +47,13 @@
       <h1>Gossip Girl</h1>
       <h2>Um blog de viagens feito para você</h2>
       <!-- <button class="btn-hero"><a href="#">Faça o tour</a></button> botão aimee -->
-      <a href="#" class="botao-banner">Começe o seu tour</a>
+      <a href="#destinos" class="botao-banner scroll-link">Começe o seu tour</a>
     </section>
 
  <!-- central park -->
- <section class="travel-container background-central-park">
+     <div class="btn-scroll">
+    <div id="destinos">
+   <section class="travel-container background-central-park">
        <!-- img + titulo-->
    <article class="title-and-image">
     <h2>Central Park</h2>
@@ -87,7 +95,10 @@
       </p>
    </div>
    </article>
-</section>                
+</section>  
+</div>
+</div>
+
 <!-- fim do destino -->
 
     <!-- Empire Hotel -->
@@ -300,6 +311,38 @@
       </article>
     </section>
     <!-- foooter -->
+    <footer>
+      <section class="footer-box">
+        <!-- social-->
+        <article class="footer-redes">
+          <ul>
+            <li class="footer-rede">
+                <a href="#" target="_blank">
+                    <i class="fa fa-brands fa-facebook-square"></i>
+                </a>
+            </li>
+            <li class="footer-rede">
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li class="footer-rede">
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        </article>
+        <!-- links rodapé-->
+        <article class="links-rodape">
+          <ul>
+            <li class="link-rodape"><a href="#destinos">Destinos</a></li>
+            <li class="link-rodape"><a href="#">Curiosidades</a></li>
+            <li class="link-rodape"><a href="#">Contato</a></li>
+          </ul>
+        </article>
+      </section>
+    </footer>
     <!-- fim do destino -->
     <script src="app.js"></script>
   </body>

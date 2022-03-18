@@ -108,10 +108,12 @@ icone hamburguer
   padding: 2rem;
   cursor: pointer;
   transition: .5s;
+  z-index: 2;
 }
 .nav-btn:hover{
   color: #E7E7E7;
 }
+
 
 /*
 ==================
@@ -145,7 +147,7 @@ menu lateral/
 
 
 @media screen and (min-width:678px){
-  .nav-lateral{
+  .nav-lateral, .nav-btn{
       display: none;
   }
 }
@@ -155,10 +157,6 @@ menu lateral/
       display: none;
   }
 }
-
-
-
-
 
 .nav-lateral li{
   margin: 2rem 0;
@@ -462,4 +460,48 @@ box-shadow: 7px 7px 0 rgba(63, 19, 99, 0.8);
 Footer
 ======================
 */
+
+footer{
+  background-color: #8db5e9;
+}
+
+.footer-box{
+  width: 100vw;
+  height: 30vh;
+  
+}
+
+.footer-redes ul, .links-rodape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.footer-rede{
+  font-size: 2rem;
+  color: #6937A9;
+  margin: 0 0.5rem;
+}
+
+.links-rodape{
+  text-align: center;
+  margin: 2rem 0;
+}
+
+
+.fotter-rede a{
+  color: #6937A9;
+  transition: .5s;
+}
+
+.footer-rede a:hover{
+  color: #E7E7E7;
+}
+
+
+.link-rodape{
+  margin: 0.5rem 0;
+}
+
 

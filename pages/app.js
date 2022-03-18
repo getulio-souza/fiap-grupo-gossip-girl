@@ -42,6 +42,48 @@ fecharBarraLateral.addEventListener("click", ()=>{
 })
 
 
+// rolamento suave entre links e destinos
+
+const itensDoMenu = documnet.querySelectorAll(".menu_de_navegacao a");
+const rolagemdoBotao = document.querySelector(".scroll-link");
+
+//scroll botão banner
+rolagemdoBotao.addEventListener("click", function(btn){
+    rolagemdoBotao.scrolltoPosition();
+});
+
+//scroll menu desktop
+itensDoMenu.forEach((item)=>{
+    item.addEventListener("click", scrollToIdOnClick)
+});
+
+// ligando links e destinos
+function rolarDoTopoParaOlink(elemento){
+    const id = element.getAttribute("href");
+    return document.querySelector(id).offsetTop;
+}
+
+// evitando comportamento padrão 
+
+function scrollToIdOnClick(evento){
+    evento.preventDefault();
+    const para = rolarDoTopoParaOlink(evento.target);
+    scrolltoPosition(para);
+}
+
+//mudando de posição de forma suave
+function scrolltoPosition(para){
+    window.scroll({
+        top:para,
+        behavior: "smooth",
+    })
+}
+
+
+
+
+
+
 
 
 
