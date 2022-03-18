@@ -6,7 +6,6 @@ window.addEventListener("scroll", ()=>{
 });
 
 // image silder
-
 const buttons = document.querySelectorAll("[data-carrosel]");
 
 buttons.forEach(button =>{
@@ -23,6 +22,24 @@ buttons.forEach(button =>{
     })
 })
 
+
+// esconder barra lateral 
+const mostrarBarraLateral = document.querySelector(".nav-btn");
+const fecharBarraLateral = document.querySelector("fechar-barra-lateral");
+const barraLateral = document.querySelector(".nav-lateral");
+
+mostrarBarraLateral.addEventListener("click", ()=>{
+    if(barraLateral.classList.contains("abrir-barra-lateral")){
+        barraLateral.classList.remove("abrir-barra-lateral")
+    }
+    else{
+        barraLateral.classList.add ("abrir-barra-lateral")
+    }
+})
+
+fecharBarraLateral.addEventListener("click", ()=>{
+    barraLateral.classList.remove("nav-btn")
+})
 
 
 

@@ -107,9 +107,10 @@ icone hamburguer
   right: 0;
   padding: 2rem;
   cursor: pointer;
+  transition: .5s;
 }
 .nav-btn:hover{
-  color: #B16CE3;
+  color: #E7E7E7;
 }
 
 /*
@@ -118,22 +119,44 @@ menu lateral/
 ==================
 */
 
-
 .nav-lateral{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- text-align: center;
- height: 100vh;
- background-color: #f0ce86;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0ce86;
+    z-index: 1;
+    position: absolute;
+    transform: translate(-100%);
+    transition: .5s;
+
 }
 
-/* @media screen and (min-width:678px){
-  .nav-btn, .nav-lateral{
-    display: none;
+.abrir-barra-lateral{
+  transform: translateX(0);
+}
+
+.fechar-barra-lateral{
+  transform: translateX(100%);
+}
+
+
+@media screen and (min-width:678px){
+  .nav-lateral{
+      display: none;
   }
-} */
+}
+
+@media screen and (max-width:678px){
+  .menu_de_navegacao{
+      display: none;
+  }
+}
+
+
 
 
 
@@ -174,9 +197,6 @@ text-align: center;
 }
 
 @media screen and (max-width:678px){
- .menu{
-   display: none;
- }
  .banner h1{
      font-size: 4rem;
    }
@@ -275,8 +295,6 @@ Destino - Continuação
 =========================
 */
 
-
-
 .title-and-image{
 text-align: center;
 margin: 2rem; 
@@ -372,6 +390,7 @@ margin: 0 4.5rem;
 .setas-icons a{
 color: #000;
 } */
+
 /*
 =========================
 Balões
@@ -437,3 +456,10 @@ color: #eee;
 border: 3px solid black;
 box-shadow: 7px 7px 0 rgba(63, 19, 99, 0.8);
 }
+
+/*
+======================
+Footer
+======================
+*/
+
