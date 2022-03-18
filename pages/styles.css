@@ -171,6 +171,32 @@ menu lateral/
   color: #B16CE3;
 }
 
+/*
+===================
+menu lateral - redes 
+===================
+*/
+.nav-redes{
+  display: inline-block;
+}
+.nav-rede{
+  font-size: 2rem;
+  color: #6937A9;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.fotter-rede a{
+  color: #6937A9;
+  transition: .5s;
+}
+
+.nav-rede a:hover{
+  color: #E7E7E7;
+}
+
+
 
 /*
 ====================
@@ -444,8 +470,20 @@ box-shadow: 7px 7px 0 rgba(63, 19, 99, 0.8); /*alterei a cor da borda pra combin
   font-weight: 900;
 }
 
+.balao-text a{
+  font-size: 1.2rem;
+  text-decoration: underline;
+  font-weight: 900;
+  color: #000;
+  transition: .5s;
+}
+.balao-text a:hover{
+  color: #6937A9;
+}
+
+
 .balao-info{
-  width: 220px;
+width: 220px;
 height: 280px;
 padding: 1rem 1rem;
 margin: 1rem 2rem;
@@ -481,14 +519,16 @@ footer{
 .footer-rede{
   font-size: 2rem;
   color: #6937A9;
-  margin: 0 0.5rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .links-rodape{
   text-align: center;
-  margin: 2rem 0;
+  margin-top: 2rem;
+  font-size: 1.2rem;
 }
-
 
 .fotter-rede a{
   color: #6937A9;
@@ -499,9 +539,7 @@ footer{
   color: #E7E7E7;
 }
 
-
 .link-rodape{
   margin: 0.5rem 0;
 }
-
 
