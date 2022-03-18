@@ -93,17 +93,54 @@ font-weight: 900;
 
 /*
 ==================
-menu lateral/icone hamburguer
+icone hamburguer
 ==================
 */
 
-/* .nav-btn{
+.nav-btn{
+  border: transparent;
+  background: transparent;
   font-size: 2rem;
-  color: red;
+  color: #6937A9;
   position: absolute;
   top: 0;
   right: 0;
-} */
+  padding: 2rem;
+  cursor: pointer;
+}
+.nav-btn:hover{
+  color: #B16CE3;
+}
+
+/*
+==================
+menu lateral/
+==================
+*/
+
+
+.nav-lateral{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ height: 100vh;
+ background-color: #f0ce86;
+}
+
+.nav-lateral li{
+  margin: 2rem 0;
+}
+.nav-lateral li a{
+  color: #6937A9;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: .5s;
+}
+.nav-lateral li a:hover{
+  color: #B16CE3;
+}
 
 
 /*
@@ -138,13 +175,6 @@ text-align: center;
    h2{
     font-size:2rem ;
    }
-}
-
-
-@media screen and (min-width:678px){
-.nav-lateral, .nav-btn{
-  display: none;
-}
 }
 
 
@@ -255,8 +285,9 @@ height: 50vh;
 
 @media screen and (max-width:678px){
 .img-container{
- width: 100vw;
+ width: 80vw;
  height: 30vh;
+ object-fit: cover;
 }
 }
 
